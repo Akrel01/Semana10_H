@@ -1,0 +1,87 @@
+/*resset*/
+
+html{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estilos generales*/
+
+body{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #03045e;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.input{
+    width: 340px;
+    height: 60px;
+    text-align: center;
+    border: solid 2px black ;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-bottom: 10rem;
+}
+
+.title{
+    color: #e4e4e4;
+    margin-bottom: 5rem;
+}
+
+.container{
+    margin: 10rem 0;
+}
+
+/*Primera,Segunda y Tercera ventana*/
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.container__button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.option{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-family: inherit;
+    font-size: 30px;
+    color: #f2f2f2;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.orange{
+    background-color: #366cff;
+}
+
+.blue{
+    background-color: rgb(255, 124, 1);
+}
+
+.inicio{
+    margin: 5rem 0;
+}
+
+
+
+/*Cuarta ventana grid*/
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
